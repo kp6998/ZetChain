@@ -80,7 +80,7 @@ const Feature = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-12">
-                        <div className="feature-item">
+                        <div className="feature-item pt-5">
                             <div className="feature-icon">
                                 <img className="flaticon" src="icon/support.png" alt="coding" />
                             </div>

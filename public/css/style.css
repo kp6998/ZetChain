@@ -624,12 +624,14 @@ a:focus {
     letter-spacing: 1px;
     color: #007bff;
     border-radius: 0;
-    background: #000000;
+    /* background: #000000; */
     transition: .3s;
+    border: 1px solid #007bff;
 }
 
 .about .about-text a.btn:hover {
-    color: #000000;
+    /* color: #000000; */
+    color: white;
     background: #007bff;
 }
 

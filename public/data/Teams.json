@@ -1,7 +1,8 @@
 
-    [
+    {
+        "Teams" : [
       
-      {
+       {
         "name": "Prakash K",
         "designation": "Founder & CEO",
         "image": "https://firebasestorage.googleapis.com/v0/b/tharkuritech-9ea93.appspot.com/o/Prakash.jpg?alt=media&token=b249b70d-f7bf-4670-a2a2-02c6bcb8c22c",
@@ -35,4 +36,4 @@
       }
     ]
   
-  
+}

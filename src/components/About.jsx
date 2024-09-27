@@ -7,7 +7,7 @@ const AboutUs = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-4 col-md-6">
                         <div className="about-img">
-                            <img src="img/TT_logo.png" alt="Image" />
+                            <img src="img/TT_Logo.png" alt="Image" />
                         </div>
                     </div>
                     <div className="col-lg-8 col-md-6">

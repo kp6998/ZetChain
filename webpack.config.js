@@ -1,12 +1,12 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require('path');
 
 module.exports = {
-  entry: './src/index.js', // Make sure to update the entry point if necessary
+  entry: './src/index.js', // Your entry point
   output: {
-    path: path.resolve(__dirname, 'build'), // Set output folder to 'build'
-    filename: 'bundle.js', // Customize the output filename if needed
-    publicPath: '/', // Set the base path for all assets
+    path: path.resolve(__dirname, 'build'), // Ensure output path is 'build'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
@@ -26,25 +26,30 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: {
-              name: '[name].[hash].[ext]',
-              outputPath: 'assets', // Store images in 'assets' folder
-            },
           },
         ],
       },
     ],
   },
   devServer: {
-    historyApiFallback: true, // this is for React Router
+    historyApiFallback: true, // For react-router support
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
-      filename: './index.html',
+      template: './public/index.html', // Ensure it uses the index.html from the public folder
+      filename: 'index.html',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, 'public'), // Copy from 'public' folder
+          to: path.resolve(__dirname, 'build'), // Destination: root of 'build' folder
+          globOptions: {
+            ignore: ['**/index.html'], // Ignore index.html as HtmlWebpackPlugin handles it
+          },
+          noErrorOnMissing: true, // Avoid errors if the public folder is empty
+        },
+      ],
     }),
   ],
-  resolve: {
-    extensions: ['.js', '.jsx'], // Add any file extensions you're working with
-  },
 };

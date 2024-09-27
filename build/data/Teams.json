@@ -1,0 +1,39 @@
+
+    {
+        "Teams" : [
+      
+       {
+        "name": "Prakash K",
+        "designation": "Founder & CEO",
+        "image": "https://firebasestorage.googleapis.com/v0/b/tharkuritech-9ea93.appspot.com/o/Prakash.jpg?alt=media&token=b249b70d-f7bf-4670-a2a2-02c6bcb8c22c",
+        "instagram": "https://www.instagram.com/blah_blah_biker/",
+        "linkedin": "https://www.linkedin.com/in/Parakash",
+        "twitter": "https://www.twitter.com/blah_blah_biker"
+      },
+      {
+        "name": "Sirancheevi P",
+        "designation": "Founder & CTO",
+        "image": "https://firebasestorage.googleapis.com/v0/b/tharkuritech-9ea93.appspot.com/o/Sirancheevi.jpeg?alt=media&token=ebbe15ed-4934-4ac3-ba0f-34d4caa874d4",
+        "instagram": "https://www.instagram.com/sirancheevipalraj/",
+        "linkedin": "https://www.linkedin.com/in/sirancheevi",
+        "twitter": "https://www.linkedin.com/in/sirancheevi-palraj-605335156/"
+      },
+      {
+        "name": "Akash R",
+        "designation": "Direct of Accounts",
+        "image": "https://firebasestorage.googleapis.com/v0/b/tharkuritech-9ea93.appspot.com/o/Akash.jpeg?alt=media&token=43bfb308-3e1e-466a-ad65-3dbb593f656b",
+        "instagram": "https://www.instagram.com/akash.ak_29/",
+        "linkedin": "https://www.linkedin.com/in/Akash",
+        "twitter": "https://www.linkedin.com/in/Akash"
+      },
+      {
+        "name": "Sankar K",
+        "designation": "Direct of IT",
+        "image": "https://firebasestorage.googleapis.com/v0/b/tharkuritech-9ea93.appspot.com/o/Sankar.jpeg?alt=media&token=18557c03-c48c-42dc-a1ee-27a3a6a7cd3e",
+        "instagram": "https://www.instagram.com/gre_ack_lv/",
+        "linkedin": "https://www.linkedin.com/in/sirancheevi",
+        "twitter": "https://www.linkedin.com/in/sirancheevi-palraj-605335156/"
+      }
+    ]
+  
+}

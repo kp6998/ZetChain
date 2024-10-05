@@ -3,14 +3,14 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC1ljPSy8qBPLFbPmoDFZaXIPEY6k9PPXg",
-  authDomain: "tharkuritech-9ea93.firebaseapp.com",
-  databaseURL: "https://tharkuritech-9ea93-default-rtdb.firebaseio.com/",
-  projectId: "tharkuritech-9ea93",
-  storageBucket: "tharkuritech-9ea93.appspot.com",
-  messagingSenderId: "1077493591220",
-  appId: "1:1077493591220:web:0fc19af4ff4365198d3be1",
-  measurementId: "G-XQZ09CMTC2"
+  apiKey: "AIzaSyCad8-MbwRx7v0EVnET4Y-uZEpy4mR9Pqc",
+  authDomain: "tharkuri-tech.firebaseapp.com",
+  databaseURL: "https://tharkuri-tech-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "tharkuri-tech",
+  storageBucket: "tharkuri-tech.appspot.com",
+  messagingSenderId: "350840121184",
+  appId: "1:350840121184:web:93c646e7b78fc8dafee005",
+  measurementId: "G-X1EMN3B0Q1"
 };
 
 // // Initialize Firebase

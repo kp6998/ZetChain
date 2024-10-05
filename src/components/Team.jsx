@@ -7,7 +7,7 @@
     const [teamData, setTeamData] = useState([]);
 
     useEffect(() => {
-        const query = ref(db, "Teams");
+        const query = ref(db, "Tharkuri Tech/Teams");
         return onValue(query, (snapshot) => {
           const data = snapshot.val();
     

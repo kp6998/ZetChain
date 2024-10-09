@@ -1015,19 +1015,25 @@ a:focus {
 .team .team-item:hover .team-social a:nth-child(2) {
     background: #3b5998;
     left: 50px;
-    transition: .3s .1s;
+    transition: .5s .1s;
 }
 
 .team .team-item:hover .team-social a:nth-child(3) {
-    background: #0e76a8;
+    background: #1eb6ff;
     left: 50px;
-    transition: .3s .2s;
+    transition: .5s .2s;
 }
 
 .team .team-item:hover .team-social a:nth-child(4) {
+    background: #0e76a8;
+    left: 50px;
+    transition: .5s .3s;
+}
+
+.team .team-item:hover .team-social a:nth-child(5) {
     background: #007bff;
     left: 50px;
-    transition: .3s .3s;
+    transition: .5s .4s;
 }
 
 

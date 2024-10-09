@@ -56,7 +56,7 @@ const Feature = () => {
     return (
         <div className="feature wow fadeInUp" data-wow-delay="0.1s">
             <div className="container-fluid">
-                <div className="row align-items-center">
+                <div className="row align-items-stretch">
                     <div className="col-lg-4 col-md-12">
                         <div className="feature-item">
                             <div className="feature-icon">
@@ -91,7 +91,6 @@ const Feature = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )

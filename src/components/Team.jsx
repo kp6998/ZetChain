@@ -40,20 +40,31 @@ const Team = () => {
                                     <p>{member.designation}</p>
                                 </div>
                                 <div className="team-social">
-                                    <a className="social-tw" href={member.twitter} target='_blank' rel="noreferrer">
-                                        <i className="fab fa-twitter"></i>
-                                    </a>
-                                    <a className="social-li" href={member.linkedin} target='_blank' rel="noreferrer">
-                                        <i className="fab fa-linkedin-in"></i>
-                                    </a>
-                                    <a className="social-in" href={member.instagram} target='_blank' rel="noreferrer">
-                                        <i className="fab fa-instagram"></i>
-                                    </a>
-                                    {member.portfolio != null &&
-                                        <a className="social-in" href={member.portfolio} target='_blank' rel="noreferrer">
+                                    {member.twitter && (
+                                        <a className="social-tw" href={member.twitter} target="_blank" rel="noreferrer">
+                                            <i className="fab fa-twitter"></i>
+                                        </a>
+                                    )}
+                                    {member.linkedin && (
+                                        <a className="social-li" href={member.linkedin} target="_blank" rel="noreferrer">
+                                            <i className="fab fa-linkedin-in"></i>
+                                        </a>
+                                    )}
+                                    {member.youtube && (
+                                        <a className="social-yt" href={member.youtube} target="_blank" rel="noreferrer">
+                                            <i className="fab fa-youtube"></i>
+                                        </a>
+                                    )}
+                                    {member.instagram && (
+                                        <a className="social-in" href={member.instagram} target="_blank" rel="noreferrer">
+                                            <i className="fab fa-instagram"></i>
+                                        </a>
+                                    )}
+                                    {member.portfolio && (
+                                        <a className="social-pf" href={member.portfolio} target="_blank" rel="noreferrer">
                                             <i className="fas fa-globe"></i>
                                         </a>
-                                    }
+                                    )}
                                 </div>
                             </div>
                         </div>

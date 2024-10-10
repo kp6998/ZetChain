@@ -2170,7 +2170,12 @@ a:focus {
 }
 
 .footer .footer-contact p i {
+    margin-right: 5px;
+}
+
+.footer .footer-contact a {
     width: 25px;
+    color: #fff;
 }
 
 .footer .footer-social {
@@ -2183,6 +2188,7 @@ a:focus {
     width: 40px;
     height: 40px;
     padding: 7px 0;
+    margin-right: 10px;
     text-align: center;
     border: 1px solid rgba(256, 256, 256, .3);
     border-radius: 60px;

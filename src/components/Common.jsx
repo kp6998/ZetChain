@@ -92,11 +92,11 @@ export function NavBar() {
                                 Team
                             </Link>
                             <Link
-                                to="/project"
-                                className={`nav-item nav-link ${activeLink === '/project' ? 'active' : ''}`}
-                                onClick={() => handleClick('/project')}
+                                to="/projects"
+                                className={`nav-item nav-link ${activeLink === '/projects' ? 'active' : ''}`}
+                                onClick={() => handleClick('/projects')}
                             >
-                                Project
+                                Projects
                             </Link>
                             <Link
                                 to="/contact"
@@ -125,8 +125,13 @@ export function Footer() {
                         <div className="footer-contact">
                             <h2>Office Contact</h2>
                             <p><i className="fa fa-map-marker-alt"></i>Kumbakonam - 612 001</p>
-                            <p><i className="fa fa-phone-alt"></i>+91 93443 18404</p>
-                            <p><i className="fa fa-envelope"></i>tharkuritech@gmail.com</p>
+                            <p><i className="fa fa-phone-alt"></i><a href="tel:+91 93443 18404">+91 93443 18404</a></p>
+                            <p>
+                                <i className="fa fa-envelope"></i>
+                                <a href="mailto:tharkuritech@gmail.com">
+                                    tharkuritech@gmail.com
+                                </a>
+                            </p>
                             <div className="footer-social">
                                 <a href=""><i className="fab fa-twitter"></i></a>
                                 <a href=""><i className="fab fa-facebook-f"></i></a>
@@ -139,10 +144,10 @@ export function Footer() {
                     <div className="col-md-3 col-lg-3">
                         <div className="footer-link">
                             <h2>Useful Pages</h2>
-                            <a href="">About Us</a>
-                            <a href="">Contact Us</a>
-                            <a href="">Our Team</a>
-                            <a href="">Projects</a>
+                            <Link  to="/about">About Us</Link>
+                            <Link to="/contact">Contact Us</Link>
+                            <Link to="/team">Our Team</Link>
+                            <Link to="/projects">Projects</Link>
                         </div>
                     </div>
                 </div>

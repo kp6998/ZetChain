@@ -9,6 +9,8 @@ import Team from "./components/Team.jsx";
 import Project from "./components/Project.jsx";
 import Contact from "./components/Contact.jsx";
 import NoPage from "./components/NoPage.jsx";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export default function App() {
     return (
@@ -22,7 +24,7 @@ export default function App() {
                     <Route path="about" element={<About />} />
                     <Route path="service" element={<Service />} />
                     <Route path="team" element={<Team />} />
-                    <Route path="project" element={<Project />} />
+                    <Route path="projects" element={<Project />} />
                     <Route path="contact" element={<Contact />} />
                     <Route path='*' element={<NoPage />} />
                 </Routes>

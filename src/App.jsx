@@ -1,14 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { TopBar, NavBar, Footer } from "./components/Common.jsx";
-import Home from "./components/Home.jsx";
-import About from "./components/About.jsx";
-import Service from "./components/Service.jsx";
-import Team from "./components/Team.jsx";
-import Project from "./components/Project.jsx";
-import Contact from "./components/Contact.jsx";
-import NoPage from "./components/NoPage.jsx";
+import { TopBar, NavBar, Footer } from "./screen/Common.jsx";
+import Home from "./screen/Home.jsx";
+import About from "./screen/About.jsx";
+import Service from "./screen/Service.jsx";
+import Team from "./screen/Team.jsx";
+import Project from "./screen/Project.jsx";
+import Contact from "./screen/Contact.jsx";
+import NoPage from "./screen/NoPage.jsx";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

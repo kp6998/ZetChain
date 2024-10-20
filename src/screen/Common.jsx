@@ -24,7 +24,12 @@ export function TopBar() {
                     <h3>Call Us</h3>
                     <p>
                       <i className="fa fa-phone-alt"></i>
-                      <a className="pl-6px text-white hover-link" href="tel:+91 93443 18404">+91 93443 18404</a>
+                      <a
+                        className="pl-6px text-white hover-link"
+                        href="tel:+91 93443 18404"
+                      >
+                        +91 93443 18404
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -63,6 +68,7 @@ export function NavBar() {
   );
 
   const handleClick = (path) => {
+    if (!(pathname == path)) $("html, body").animate({ scrollTop: 0 }, 1000);
     setActiveLink(path);
   };
 
@@ -166,28 +172,39 @@ export function Footer() {
               </p>
               <p>
                 <i className="fa fa-phone-alt"></i>
-                <a className="text-white hover-link" href="tel:+91 93443 18404">+91 93443 18404</a>
+                <a className="text-white hover-link" href="tel:+91 93443 18404">
+                  +91 93443 18404
+                </a>
               </p>
               <p>
                 <i className="fa fa-envelope"></i>
-                <a className="text-white hover-link" href="mailto:tharkuritech@gmail.com">
+                <a
+                  className="text-white hover-link"
+                  href="mailto:tharkuritech@gmail.com"
+                >
                   tharkuritech@gmail.com
                 </a>
               </p>
               <div className="footer-social">
-                <a href="">
+                <a href="https://x.com/TharkuriTech" target="_blank">
                   <i className="fab fa-twitter"></i>
                 </a>
                 {/* <a href="">
                   <i className="fab fa-facebook-f"></i>
                 </a> */}
-                <a href="">
+                <a href="https://www.youtube.com/@TharkuriTech" target="_blank">
                   <i className="fab fa-youtube"></i>
                 </a>
-                <a href="">
+                <a
+                  href="https://www.instagram.com/tharkuritech"
+                  target="_blank"
+                >
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="">
+                <a
+                  href="https://www.linkedin.com/company/tharkuri/"
+                  target="_blank"
+                >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </div>

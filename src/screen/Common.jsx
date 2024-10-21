@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { NavContext } from "../components/navLinkContext";
 
 export function TopBar() {
   return (
@@ -61,17 +62,12 @@ export function TopBar() {
   );
 }
 
-export function NavBar() {
+export function NavBar(props) {
   const { pathname } = useLocation();
-  const [activeLink, setActiveLink] = useState(
-    pathname === "/" ? "/home" : pathname
-  );
-
-  const handleClick = (path) => {
-    if (!(pathname == path)) $("html, body").animate({ scrollTop: 0 }, 1000);
-    setActiveLink(path);
-  };
-
+  const { activeLink, handleClick } = useContext(NavContext);
+  useEffect(() => {
+    handleClick(pathname);
+  }, []);
   return (
     <div className="nav-bar">
       <div className="container-fluid">
@@ -97,7 +93,7 @@ export function NavBar() {
                 className={`nav-item nav-link ${
                   activeLink === "/home" ? "active" : ""
                 }`}
-                onClick={() => handleClick("/home")}
+                onClick={() => handleClick("/home", pathname)}
               >
                 Home
               </Link>
@@ -106,7 +102,7 @@ export function NavBar() {
                 className={`nav-item nav-link ${
                   activeLink === "/about" ? "active" : ""
                 }`}
-                onClick={() => handleClick("/about")}
+                onClick={() => handleClick("/about", pathname)}
               >
                 About
               </Link>
@@ -115,7 +111,7 @@ export function NavBar() {
                 className={`nav-item nav-link ${
                   activeLink === "/service" ? "active" : ""
                 }`}
-                onClick={() => handleClick("/service")}
+                onClick={() => handleClick("/service", pathname)}
               >
                 Service
               </Link>
@@ -124,7 +120,7 @@ export function NavBar() {
                 className={`nav-item nav-link ${
                   activeLink === "/team" ? "active" : ""
                 }`}
-                onClick={() => handleClick("/team")}
+                onClick={() => handleClick("/team", pathname)}
               >
                 Team
               </Link>
@@ -133,7 +129,7 @@ export function NavBar() {
                 className={`nav-item nav-link ${
                   activeLink === "/projects" ? "active" : ""
                 }`}
-                onClick={() => handleClick("/projects")}
+                onClick={() => handleClick("/projects", pathname)}
               >
                 Projects
               </Link>
@@ -142,7 +138,7 @@ export function NavBar() {
                 className={`nav-item nav-link ${
                   activeLink === "/contact" ? "active" : ""
                 }`}
-                onClick={() => handleClick("/contact")}
+                onClick={() => handleClick("/contact", pathname)}
               >
                 Contact
               </Link>
@@ -160,6 +156,8 @@ export function NavBar() {
 }
 
 export function Footer() {
+  const { pathname } = useLocation();
+  const { handleClick } = useContext(NavContext);
   return (
     <div className="footer wow fadeIn" data-wow-delay="0.3s">
       <div className="container">
@@ -213,10 +211,24 @@ export function Footer() {
           <div className="col-md-3 col-lg-3">
             <div className="footer-link">
               <h2>Useful Pages</h2>
-              <Link to="/about">About Us</Link>
-              <Link to="/contact">Contact Us</Link>
-              <Link to="/team">Our Team</Link>
-              <Link to="/projects">Projects</Link>
+              <Link to="/about" onClick={() => handleClick("/about", pathname)}>
+                About Us
+              </Link>
+              <Link
+                to="/contact"
+                onClick={() => handleClick("/contact", pathname)}
+              >
+                Contact Us
+              </Link>
+              <Link to="/team" onClick={() => handleClick("/team", pathname)}>
+                Our Team
+              </Link>
+              <Link
+                to="/projects"
+                onClick={() => handleClick("/projects", pathname)}
+              >
+                Projects
+              </Link>
             </div>
           </div>
         </div>

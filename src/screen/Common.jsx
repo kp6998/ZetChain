@@ -63,10 +63,10 @@ export function TopBar() {
 }
 
 export function NavBar(props) {
-  const { pathname } = useLocation();
+  const { pathname } = useLocation();  
   const { activeLink, handleClick } = useContext(NavContext);
   useEffect(() => {
-    handleClick(pathname);
+    handleClick(pathname == "/" ? "/home" : pathname);
   }, []);
   return (
     <div className="nav-bar">
@@ -243,7 +243,7 @@ export function Footer() {
           <div className="col-md-6">
             <p>
               Designed By{" "}
-              <a href="https://Tharkuri.com" target="blank">
+              <a href="#">
                 Tharkuri Tech
               </a>
             </p>

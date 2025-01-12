@@ -46,9 +46,9 @@ export function TopBar() {
                       <i className="fa fa-envelope"></i>
                       <a
                         className="pl-6px text-white hover-link"
-                        href="mailto:tharkuritech@gmail.com"
+                        href="mailto:info@tharkuritech.com"
                       >
-                        tharkuritech@gmail.com
+                        info@tharkuritech.com
                       </a>
                     </p>
                   </div>
@@ -178,9 +178,9 @@ export function Footer() {
                 <i className="fa fa-envelope"></i>
                 <a
                   className="text-white hover-link"
-                  href="mailto:tharkuritech@gmail.com"
+                  href="mailto:info@tharkuritech.com"
                 >
-                  tharkuritech@gmail.com
+                  info@tharkuritech.com
                 </a>
               </p>
               <div className="footer-social">

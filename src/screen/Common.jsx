@@ -144,7 +144,7 @@ export function NavBar(props) {
               </Link>
             </div>
             <div className="ml-auto">
-              <a className="btn" href="#">
+              <a className="btn" href="https://forms.gle/wEqWjG8kBct3keTz9" target="_blank">
                 Get A Quote
               </a>
             </div>

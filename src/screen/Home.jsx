@@ -17,7 +17,7 @@ const Carousel = () => {
                     <div className="carousel-caption">
                         <p className="animated fadeInRight">Innovative Web Solutions</p>
                         <h1 className="animated fadeInLeft">Building Web Apps for Your Business</h1>
-                        <a className="btn animated fadeInUp" href="">Get A Quote</a>
+                        <a className="btn animated fadeInUp" href="https://forms.gle/wEqWjG8kBct3keTz9" target="_blank">Get A Quote</a>
                     </div>
                 </div>
 
@@ -26,7 +26,7 @@ const Carousel = () => {
                     <div className="carousel-caption">
                         <p className="animated fadeInRight">Seamless Mobile Experiences</p>
                         <h1 className="animated fadeInLeft">We Develop Cutting-Edge Mobile Apps</h1>
-                        <a className="btn animated fadeInUp" href="">Get A Quote</a>
+                        <a className="btn animated fadeInUp" href="https://forms.gle/wEqWjG8kBct3keTz9" target="_blank">Get A Quote</a>
                     </div>
                 </div>
 
@@ -35,7 +35,7 @@ const Carousel = () => {
                     <div className="carousel-caption">
                         <p className="animated fadeInRight">Secure Blockchain Solutions</p>
                         <h1 className="animated fadeInLeft">Leverage Blockchain for Your Business</h1>
-                        <a className="btn animated fadeInUp" href="">Get A Quote</a>
+                        <a className="btn animated fadeInUp" href="https://forms.gle/wEqWjG8kBct3keTz9" target="_blank">Get A Quote</a>
                     </div>
                 </div>
             </div>

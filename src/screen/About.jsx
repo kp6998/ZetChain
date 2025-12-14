@@ -12,12 +12,12 @@ const AboutUs = () => {
                     </div>
                     <div className="col-lg-8 col-md-6">
                         <div className="section-header text-left">
-                            <p>Welcome to Tharkuri Tech</p>
+                            <p>Welcome to ZetChain Tech</p>
                             <h2>Innovating the Future</h2>
                         </div>
                         <div className="about-text">
                             <p>
-                                At Tharkuri Tech, we are a newly launched startup driven by passion and innovation. Although we are fresh on the scene, our vision is clear: to deliver cutting-edge technology solutions that transform businesses and help them navigate the digital landscape with ease.
+                                At ZetChain Tech, we are a newly launched startup driven by passion and innovation. Although we are fresh on the scene, our vision is clear: to deliver cutting-edge technology solutions that transform businesses and help them navigate the digital landscape with ease.
                             </p>
                             <p>
                                 From web development to mobile applications and blockchain technology, we are committed to pushing boundaries and creating solutions that meet the needs of modern enterprises. Our talented team is dedicated to providing exceptional service, with a focus on collaboration, creativity, and technical expertise.

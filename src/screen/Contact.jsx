@@ -27,7 +27,7 @@ const Contact = () => {
                                 <i class="flaticon-send-mail"></i>
                                 <div class="contact-text">
                                     <h2>Email</h2>
-                                    <p>info@tharkuritech.com</p>
+                                    <p>info@zetchain.com</p>
                                 </div>
                             </div>
                         </div>

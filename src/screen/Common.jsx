@@ -46,9 +46,9 @@ export function TopBar() {
                       <i className="fa fa-envelope"></i>
                       <a
                         className="pl-6px text-white hover-link"
-                        href="mailto:info@tharkuritech.com"
+                        href="mailto:info@zetchain.com"
                       >
-                        info@tharkuritech.com
+                        info@zetchain.com
                       </a>
                     </p>
                   </div>
@@ -178,29 +178,29 @@ export function Footer() {
                 <i className="fa fa-envelope"></i>
                 <a
                   className="text-white hover-link"
-                  href="mailto:info@tharkuritech.com"
+                  href="mailto:info@zetchain.com"
                 >
-                  info@tharkuritech.com
+                  info@zetchain.com
                 </a>
               </p>
               <div className="footer-social">
-                <a href="https://x.com/TharkuriTech" target="_blank">
+                <a href="https://x.com/zetchaintech" target="_blank">
                   <i className="fab fa-twitter"></i>
                 </a>
                 {/* <a href="">
                   <i className="fab fa-facebook-f"></i>
                 </a> */}
-                <a href="https://www.youtube.com/@TharkuriTech" target="_blank">
+                <a href="https://www.youtube.com/@zetchain" target="_blank">
                   <i className="fab fa-youtube"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/tharkuritech"
+                  href="https://www.instagram.com/zetchain"
                   target="_blank"
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a
-                  href="https://www.linkedin.com/company/tharkuri/"
+                  href="https://www.linkedin.com/company/zetchain/"
                   target="_blank"
                 >
                   <i className="fab fa-linkedin-in"></i>
@@ -237,14 +237,14 @@ export function Footer() {
         <div className="row">
           <div className="col-md-6">
             <p>
-              &copy; <a href="#">Tharkuri Tech</a>, All Right Reserved.
+              &copy; <a href="#">ZetChain Tech</a>, All Right Reserved.
             </p>
           </div>
           <div className="col-md-6">
             <p>
               Designed By{" "}
               <a href="#">
-                Tharkuri Tech
+                ZetChain Tech
               </a>
             </p>
           </div>

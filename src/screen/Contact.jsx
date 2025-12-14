@@ -20,7 +20,7 @@ const Contact = () => {
                                 <i class="flaticon-call"></i>
                                 <div class="contact-text">
                                     <h2>Phone</h2>
-                                    <p>+91 93443 18404</p>
+                                    <p>+91 96777 81235</p>
                                 </div>
                             </div>
                             <div class="contact-item">

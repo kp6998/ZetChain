@@ -24,7 +24,7 @@ const Team = () => {
                     <p>Our Team</p>
                     <h2>Meet Our Experts</h2>
                 </div>
-                <div className="row">
+                <div className="row" style={{justifyContent: 'center'}}>
                     {teamData.map((member, index) => (
                         <div
                             className="col-lg-3 col-md-6 wow fadeInUp"

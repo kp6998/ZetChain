@@ -10,7 +10,7 @@ export function TopBar() {
           <div className="col-lg-4 col-md-12">
             <div className="logo">
               <Link to="/home">
-                <img src="img/logo.png" alt="Logo" />
+                <img src="img/zetchain.png" alt="Logo" />
               </Link>
             </div>
           </div>
@@ -27,9 +27,9 @@ export function TopBar() {
                       <i className="fa fa-phone-alt"></i>
                       <a
                         className="pl-6px text-white hover-link"
-                        href="tel:+91 93443 18404"
+                        href="tel:+91 96777 81235"
                       >
-                        +91 93443 18404
+                        +91 96777 81235
                       </a>
                     </p>
                   </div>
@@ -170,8 +170,8 @@ export function Footer() {
               </p>
               <p>
                 <i className="fa fa-phone-alt"></i>
-                <a className="text-white hover-link" href="tel:+91 93443 18404">
-                  +91 93443 18404
+                <a className="text-white hover-link" href="tel:+91 96777 81235">
+                  +91 96777 81235
                 </a>
               </p>
               <p>
